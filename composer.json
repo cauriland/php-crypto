@@ -1,0 +1,69 @@
+{
+    "name": "cauriland/crypto",
+    "description": "A simple PHP Cryptography Implementation for the Cauri Blockchain.",
+    "keywords": [
+        "api",
+        "cauri",
+        "blockchain",
+        "crypto",
+        "currency"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arsel Tindo",
+            "email": "devtnga@gmail.com",
+            "homepage": "https://github.com/tnga"
+        },
+        {
+            "name": "Brian Faust",
+            "email": "hello@brianfaust.me",
+            "homepage": "https://github.com/faustbrian"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "bitwasp/bitcoin": "^1.0",
+        "simplito/elliptic-php": "^1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "graham-campbell/analyzer": "^3.0",
+        "illuminate/support": "^7.0|^8.0",
+        "mockery/mockery": "^1.2",
+        "pestphp/drift": "^0.3",
+        "pestphp/pest": "^1.0",
+        "pestphp/pest-plugin-parallel": "^0.3.1",
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CauriLand\\Crypto\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CauriLand\\Tests\\Crypto\\": "tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "scripts": {
+        "format": [
+            "vendor/bin/php-cs-fixer fix"
+        ],
+        "test": [
+            "./vendor/bin/pest --parallel"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
