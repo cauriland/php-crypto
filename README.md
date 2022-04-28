@@ -1,7 +1,7 @@
 # Cauri PHP - Crypto
 
 <p align="center">
-    <img src="https://github.com/cauriland/php-crypto/blob/master/banner.png" />
+    <img src="https://github.com/cauriland/php-crypto/raw/master/banner.png" />
 </p>
 
 > A simple PHP Cryptography Implementation for the Cauri Blockchain.
