@@ -1,7 +1,7 @@
 # Cauri PHP - Crypto
 
 <p align="center">
-    <img src="https://github.com/cauriland/php-crypto/raw/master/banner.png" />
+    <img src="https://github.com/cauriland/php-crypto/raw/main/banner.png" />
 </p>
 
 > A simple PHP Cryptography Implementation for the Cauri Blockchain.
@@ -11,8 +11,7 @@
 [![Latest Version](https://badgen.now.sh/github/release/cauriland/php-crypto)](https://github.com/cauriland/php-crypto/releases)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
-> Lead Maintainer: [Arsel Tindo](https://github.com/tnga)
-
+> Lead Maintainer: [Arsel Tindo](https://github.com/tnga) <br/>
 > Legacy Maintainer: [Brian Faust](https://github.com/faustbrian)
 
 ## Documentation
